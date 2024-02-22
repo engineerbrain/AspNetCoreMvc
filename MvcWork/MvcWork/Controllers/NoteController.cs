@@ -34,7 +34,8 @@ namespace MvcWork.Controllers
                 if (user != null && !user.IsAdmin)
                 {
                     _noteService.AddNote(note);
-                    return RedirectToAction("NoteList");
+                    return RedirectToAction("Index", new RouteValueDictionary(
+   new { controller = "User", action = "Index", userId = note.UserId }));
                 }
             }
             return RedirectToAction("Index", "Home"); // Giriş başarısız ise ana sayfaya yönlendir
@@ -70,14 +71,16 @@ namespace MvcWork.Controllers
         public IActionResult NoteEdit(NoteModel updatedNote)
         {
             _noteService.UpdateNote(updatedNote);
-            return RedirectToAction("NoteList");
+            return RedirectToAction("NoteList", new RouteValueDictionary(
+   new { controller = "Note", action = "NoteList", userId = updatedNote.UserId }));
         }
 
         [HttpPost]
-        public IActionResult NoteDelete(int noteId)
+        public IActionResult NoteDelete(int noteId, int userId)
         {
             _noteService.DeleteNoteById(noteId);
-            return RedirectToAction("NoteList");
+            return RedirectToAction("NoteList", new RouteValueDictionary(
+  new { controller = "Note", action = "NoteList", userId = userId }));
         }
 
     }

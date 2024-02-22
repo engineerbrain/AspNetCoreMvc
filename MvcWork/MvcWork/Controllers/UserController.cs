@@ -73,9 +73,9 @@ namespace MvcWork.Controllers
         }
 
         [HttpGet]
-        public IActionResult UserEdit(int userId)
+        public IActionResult UserEdit(string userId)
         {
-            var user = _userService.GetUserById(userId);
+            var user = _userService.GetUserById(Convert.ToInt32(userId));
             if (user == null)
                 return NotFound();
 
@@ -91,7 +91,8 @@ namespace MvcWork.Controllers
                 {
                     _userService.UpdateUser(updatedUser);
                     TempData["SuccessMessage"] = "Kullanıcı başarıyla güncellendi.";
-                    return RedirectToAction("UserEdit");
+                    return RedirectToAction("Index", new RouteValueDictionary(
+                    new { controller = "User", action = "Index", userId = updatedUser.UserId }));
                 }
                 catch (Exception ex)
                 {

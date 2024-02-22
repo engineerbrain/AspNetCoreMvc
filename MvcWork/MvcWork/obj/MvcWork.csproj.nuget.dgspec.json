@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fatma\\Desktop\\DGH-Yazilim\\odevler\\02Odev01\\mvcWorks\\MvcWork\\MvcWork\\MvcWork.csproj": {}
+    "C:\\Users\\burak\\Desktop\\AspNetCoreMvc\\MvcWork\\MvcWork\\MvcWork.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fatma\\Desktop\\DGH-Yazilim\\odevler\\02Odev01\\mvcWorks\\MvcWork\\MvcWork\\MvcWork.csproj": {
+    "C:\\Users\\burak\\Desktop\\AspNetCoreMvc\\MvcWork\\MvcWork\\MvcWork.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fatma\\Desktop\\DGH-Yazilim\\odevler\\02Odev01\\mvcWorks\\MvcWork\\MvcWork\\MvcWork.csproj",
+        "projectUniqueName": "C:\\Users\\burak\\Desktop\\AspNetCoreMvc\\MvcWork\\MvcWork\\MvcWork.csproj",
         "projectName": "MvcWork",
-        "projectPath": "C:\\Users\\fatma\\Desktop\\DGH-Yazilim\\odevler\\02Odev01\\mvcWorks\\MvcWork\\MvcWork\\MvcWork.csproj",
-        "packagesPath": "C:\\Users\\fatma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fatma\\Desktop\\DGH-Yazilim\\odevler\\02Odev01\\mvcWorks\\MvcWork\\MvcWork\\obj\\",
+        "projectPath": "C:\\Users\\burak\\Desktop\\AspNetCoreMvc\\MvcWork\\MvcWork\\MvcWork.csproj",
+        "packagesPath": "C:\\Users\\burak\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\burak\\Desktop\\AspNetCoreMvc\\MvcWork\\MvcWork\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\fatma\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\burak\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -49,8 +45,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -62,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

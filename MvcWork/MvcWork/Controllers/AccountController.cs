@@ -37,7 +37,6 @@ namespace MvcWork.Controllers
                     }
                     else
                     {
-                      //  return RedirectToAction("Index", "User");
                         return RedirectToAction("Index", new RouteValueDictionary(
     new { controller = "User", action = "Index", userId = userId }));
                     }

@@ -9,6 +9,7 @@
 </div>
 
 <form asp-controller="Note" asp-action="NoteDelete" method="post">
+    <input type="hidden" name="userId" value="@Model.UserId" />
     <input type="hidden" name="noteId" value="@Model.NoteId" />
     <button type="submit">Sil</button>
     <a href="javascript:history.back()">İptal Et</a>

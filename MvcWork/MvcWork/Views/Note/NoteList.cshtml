@@ -23,6 +23,7 @@
                 <button type="submit">Güncelle</button>
             </form>
             <form asp-controller="Note" asp-action="NoteDelete" method="post">
+                <input type="hidden" name="userId" value="@note.UserId" />
                 <input type="hidden" name="noteId" value="@note.NoteId" />
                 <button type="submit" onclick="return confirm('Bu notu silmek istediğinizden emin misiniz?')">Sil</button>
             </form>

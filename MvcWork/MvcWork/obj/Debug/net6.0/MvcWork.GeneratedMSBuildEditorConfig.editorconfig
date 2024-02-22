@@ -5,75 +5,72 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
-build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MvcWork
 build_property.RootNamespace = MvcWork
-build_property.ProjectDir = c:\Users\fatma\Desktop\AspNetCoreMvc\MvcWork\MvcWork\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = C:\Users\burak\Desktop\AspNetCoreMvc\MvcWork\MvcWork\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\fatma\Desktop\AspNetCoreMvc\MvcWork\MvcWork
+build_property.MSBuildProjectDirectory = C:\Users\burak\Desktop\AspNetCoreMvc\MvcWork\MvcWork
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/fatma/Desktop/AspNetCoreMvc/MvcWork/MvcWork/Views/Account/Login.cshtml]
+[C:/Users/burak/Desktop/AspNetCoreMvc/MvcWork/MvcWork/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/fatma/Desktop/AspNetCoreMvc/MvcWork/MvcWork/Views/Account/SingUp.cshtml]
+[C:/Users/burak/Desktop/AspNetCoreMvc/MvcWork/MvcWork/Views/Account/SingUp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaW5nVXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/fatma/Desktop/AspNetCoreMvc/MvcWork/MvcWork/Views/Home/Index.cshtml]
+[C:/Users/burak/Desktop/AspNetCoreMvc/MvcWork/MvcWork/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/fatma/Desktop/AspNetCoreMvc/MvcWork/MvcWork/Views/Note/NoteAdd.cshtml]
+[C:/Users/burak/Desktop/AspNetCoreMvc/MvcWork/MvcWork/Views/Note/NoteAdd.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90ZVxOb3RlQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/fatma/Desktop/AspNetCoreMvc/MvcWork/MvcWork/Views/Note/NoteDelete.cshtml]
+[C:/Users/burak/Desktop/AspNetCoreMvc/MvcWork/MvcWork/Views/Note/NoteDelete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90ZVxOb3RlRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/fatma/Desktop/AspNetCoreMvc/MvcWork/MvcWork/Views/Note/NoteEdit.cshtml]
+[C:/Users/burak/Desktop/AspNetCoreMvc/MvcWork/MvcWork/Views/Note/NoteEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90ZVxOb3RlRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/fatma/Desktop/AspNetCoreMvc/MvcWork/MvcWork/Views/Note/NoteList.cshtml]
+[C:/Users/burak/Desktop/AspNetCoreMvc/MvcWork/MvcWork/Views/Note/NoteList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90ZVxOb3RlTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/fatma/Desktop/AspNetCoreMvc/MvcWork/MvcWork/Views/Shared/Error.cshtml]
+[C:/Users/burak/Desktop/AspNetCoreMvc/MvcWork/MvcWork/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/fatma/Desktop/AspNetCoreMvc/MvcWork/MvcWork/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/burak/Desktop/AspNetCoreMvc/MvcWork/MvcWork/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/fatma/Desktop/AspNetCoreMvc/MvcWork/MvcWork/Views/User/Index.cshtml]
+[C:/Users/burak/Desktop/AspNetCoreMvc/MvcWork/MvcWork/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/fatma/Desktop/AspNetCoreMvc/MvcWork/MvcWork/Views/User/UserEdit.cshtml]
+[C:/Users/burak/Desktop/AspNetCoreMvc/MvcWork/MvcWork/Views/User/UserEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVc2VyRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/fatma/Desktop/AspNetCoreMvc/MvcWork/MvcWork/Views/User/UserList.cshtml]
+[C:/Users/burak/Desktop/AspNetCoreMvc/MvcWork/MvcWork/Views/User/UserList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVc2VyTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/fatma/Desktop/AspNetCoreMvc/MvcWork/MvcWork/Views/_ViewImports.cshtml]
+[C:/Users/burak/Desktop/AspNetCoreMvc/MvcWork/MvcWork/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/fatma/Desktop/AspNetCoreMvc/MvcWork/MvcWork/Views/_ViewStart.cshtml]
+[C:/Users/burak/Desktop/AspNetCoreMvc/MvcWork/MvcWork/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/fatma/Desktop/AspNetCoreMvc/MvcWork/MvcWork/Views/Shared/_Layout.cshtml]
+[C:/Users/burak/Desktop/AspNetCoreMvc/MvcWork/MvcWork/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-nuhrkr4d6e

@@ -33,9 +33,13 @@ namespace MvcWork.Models
 
             if (File.Exists(_filePath))
             {
-                string[] lines = File.ReadAllLines(_filePath);
+                var allText = File.ReadAllText(_filePath);
+                string[] lines = allText.Split("###");
+
                 foreach (var line in lines)
                 {
+                    if(line != "\r\n")
+                    {
                     string[] parts = line.Split('#');
                     if (parts.Length == 4)
                     {
@@ -46,6 +50,7 @@ namespace MvcWork.Models
                             NoteDescription = parts[2],
                             NoteDate = DateTime.Parse(parts[3])
                         });
+                    }
                     }
                 }
             }
