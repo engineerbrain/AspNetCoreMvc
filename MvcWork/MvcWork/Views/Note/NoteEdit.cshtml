@@ -1,0 +1,20 @@
+﻿@* ﻿@{
+    ViewData["Title"] = "Note Edit sayfası";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Burası kullanıcının, note list sayfasından seçtiği ilgili notu güncelleyeceği sayfa olacak.</h1>
+
+</div> *@
+
+@model NoteModel
+
+<h1>Note Edit sayfası</h1>
+
+<form asp-controller="Note" asp-action="NoteEdit" method="post">
+    <input type="hidden" name="NoteId" value="@Model.NoteId" />
+    <label>Note Description:</label>
+    <input type="text" name="NoteDescription" value="@Model.NoteDescription" />
+    <br />
+    <button type="submit">Güncelle</button>
+</form>

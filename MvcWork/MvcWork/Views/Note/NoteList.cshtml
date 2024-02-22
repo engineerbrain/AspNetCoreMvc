@@ -1,0 +1,32 @@
+﻿@* ﻿@{
+    ViewData["Title"] = "Note List sayfası";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Burada kullanıcının eklediği notların listelendiği sayfa olacak. </h1>
+
+</div> *@
+
+@model List<NoteModel>
+
+
+<h1>Note List sayfası</h1>
+
+<ul>
+    @foreach (var note in Model)
+    {
+        <li>
+            <div>Note Description: @note.NoteDescription</div>
+            <div>Note Date: @note.NoteDate</div>
+            <form asp-controller="Note" asp-action="NoteEdit" method="get">
+                <input type="hidden" name="noteId" value="@note.NoteId" />
+                <button type="submit">Güncelle</button>
+            </form>
+            <form asp-controller="Note" asp-action="NoteDelete" method="post">
+                <input type="hidden" name="noteId" value="@note.NoteId" />
+                <button type="submit" onclick="return confirm('Bu notu silmek istediğinizden emin misiniz?')">Sil</button>
+            </form>
+        </li>
+    }
+</ul>
+

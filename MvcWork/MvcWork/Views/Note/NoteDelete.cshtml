@@ -1,0 +1,15 @@
+﻿@model NoteModel
+
+<h1>Delete Note</h1>
+
+<p>Aşağıdaki notu silmek istediğinizden emin misiniz?</p>
+<div>
+    <strong>Note Description:</strong> @Model.NoteDescription <br />
+    <strong>Note Date:</strong> @Model.NoteDate
+</div>
+
+<form asp-controller="Note" asp-action="NoteDelete" method="post">
+    <input type="hidden" name="noteId" value="@Model.NoteId" />
+    <button type="submit">Sil</button>
+    <a href="javascript:history.back()">İptal Et</a>
+</form>

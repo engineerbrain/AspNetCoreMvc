@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "User Menu sayfası";
+    var userId = ViewBag.UserId;
+}
+
+<div class="text-center">
+    <h1 class="display-4">Kullanıcı Menüsü</h1>
+    <div>
+        <a asp-action="NoteAdd" asp-controller="Note" asp-route-userId="@userId">Not Ekle</a> |
+        <a asp-action="NoteList" asp-controller="Note">Notları Listele</a> |
+        <a asp-action="UserEdit" asp-controller="User">Kullanıcıyı Düzenle</a>
+    </div>
+</div>

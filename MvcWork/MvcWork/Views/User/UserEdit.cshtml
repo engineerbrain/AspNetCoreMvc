@@ -1,0 +1,48 @@
+﻿ @* ﻿@{
+    ViewData["Title"] = "User Edit sayfası";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Burada kullanıcının, kullanıcı bilgilerini güncelleme işlemleri olacak </h1>
+
+</div> 
+ *@
+
+ @model MvcWork.Models.UserModel
+
+@{
+    ViewData["Title"] = "Kullanıcı Düzenle";
+}
+
+<h1>Kullanıcı Düzenle</h1>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success" role="alert">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="FirstName">Ad</label>
+        <input asp-for="FirstName" class="form-control" />
+        <span asp-validation-for="FirstName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="LastName">Soyad</label>
+        <input asp-for="LastName" class="form-control" />
+        <span asp-validation-for="LastName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="MailAddress">E-posta Adresi</label>
+        <input asp-for="MailAddress" class="form-control" />
+        <span asp-validation-for="MailAddress" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Password">Şifre</label>
+        <input asp-for="Password" class="form-control" />
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Kaydet</button>
+</form>

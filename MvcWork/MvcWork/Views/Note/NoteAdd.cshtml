@@ -1,0 +1,37 @@
+﻿@* ﻿@using MvcWork.Models
+
+@model NoteModel
+
+@{
+    ViewData["Title"] = "Not Ekle";
+}
+
+ <div class="text-center">
+    <h1 class="display-4">Burada kullanıcı kendisi için not ekleyecek. </h1>
+    <h1 class="display-4"> @Model.NoteDescription </h1>
+
+
+</div> 
+ *@
+
+
+@model MvcWork.Models.NoteModel
+
+@{
+    ViewData["Title"] = "Add Note";
+    var userId = ViewBag.UserId;
+}
+
+<h1>Add Note</h1>
+
+<form asp-action="NoteAdd" method="post">
+    <asp-div class="form-group">
+        <label asp-for="NoteDescription" class="control-label"></label>
+        <input asp-for="NoteDescription" class="form-control" />
+        <input asp-for="UserId" value="@userId" class="form-control" style="display:none"/>
+        <span asp-validation-for="NoteDescription" class="text-danger"></span>
+    </asp-div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Not Ekle</button>
+    </div>
+</form>
